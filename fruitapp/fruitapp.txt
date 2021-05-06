@@ -1,0 +1,20 @@
+Main class-User Login
+           calling Initialize  fruits method
+           getMenu(Method)-TO print the menu
+	   Calling the service based on the user input
+FruitService class-
+	   initialize some fruits
+1)showFruits Method-displays all the fruits present in the shop and call buyFruits method
+2)buyFruits Method-Take inputs from the user for fruits id and the quantity and add them to the cart
+3)ViewCart Method-Displays the cart of the user containing all the details of his cart
+4)checkOutCart Method-Displays all cart items and finally prints the total amount of the cart
+
+Login class-
+	   initialize some users
+Take the input of username and password and checks whether they are present in the user details or not and verifies the user
+
+Fruit class-
+contains all the details of the fruits and have setter and getter methods
+
+Person class-
+contains details of the user and have a cart(Map structure) to store the user item and quantity, and have setter and getter methods
