@@ -1,0 +1,24 @@
+Main class-Initialize few users
+	   calls the login class
+	   If successfull login:select an option:
+			    1:find a ride
+		            2.offer a ride
+			    3.About us
+	                    4.exit
+RideService class(Two methods)-
+
+1)findRide: 
+Initialize few trips.Take from and to address from user and check whether they are present in the available rides.
+if present book a ride else print didnt find any ride.
+
+2)OfferRide
+To offer a ride by a user ,gives all the details of the ride and add the ride details to the available rides.
+
+Login class-
+It takes input of username and password and check in the users list whether they are valid or not.if correct proceed else print wrong credentials message.
+
+DetailsOfTrip class-
+This class contains all the details of the trip, and used to set and get all the details of the trip
+
+Person class-
+Contains details of the user like username and password.And used to set and get the credentials of the user
